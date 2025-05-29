@@ -1,0 +1,59 @@
+# Model configuration
+random_seed: 42
+
+# Input dimensions
+in_dim_vehicle: 10
+in_dim_agents: 11
+in_dim_static: 10
+in_dim_lane: 165
+in_dim_route: 165
+in_dim_reference_line: 240
+
+action_dim: 32
+
+# Output dimensions
+out_dim_lane: 16
+out_dim_route: 16
+feature_dim_agent: 16
+out_dim_agent: 32
+out_dim_static: 8
+
+# Transformer parameters
+memory_len: 8
+hidden_dim_T: 64
+layer_num_T: 2
+head_num_T: 8
+
+# Feature fusion network parameters
+hidden_dim_dense: 128
+layer_num_dense: 2
+
+# Option network parameters
+hidden_dim_option: 128
+layer_num_option: 3
+
+# Final feature dimension
+feature_dim: 256
+
+# Option embedding parameters
+option_embedding_dim: 32
+option_num: 7
+
+# Classification network parameters
+hidden_dim_classify: 64
+layer_num_classify: 3
+
+# Diffusion model parameters
+sde_hidden_dim: 128
+sde_layer_num: 3
+sde_T: 5
+
+# Environment parameters
+agent_num: 64
+static_objects_num: 10
+lane_num: 64
+lane_len: 20
+route_num: 64
+route_len: 20
+
+normalize: normalization.json

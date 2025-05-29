@@ -1,0 +1,24 @@
+HiFren_planner:
+  _target_: planner.HiFren_Planner.HiFrenPlanner
+  _convert_: "all"
+
+  ckpt_path: ???
+  args_path: ???
+  noise_lib_X_path: REPLACE_WITH_PATH_TO_NOISE_LIB_X
+  noise_lib_Y_path: REPLACE_WITH_PATH_TO_NOISE_LIB_Y
+
+  past_trajectory_sampling:
+    _target_: nuplan.planning.simulation.trajectory.trajectory_sampling.TrajectorySampling
+    _convert_: "all"
+
+    num_poses: 8
+    time_horizon: 4
+
+  future_trajectory_sampling:
+    _target_: nuplan.planning.simulation.trajectory.trajectory_sampling.TrajectorySampling
+    _convert_: "all"
+
+    num_poses: 16
+    time_horizon: 8
+
+  device: cuda

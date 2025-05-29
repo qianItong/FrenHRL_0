@@ -1,0 +1,199 @@
+_target_: nuplan.planning.scenario_builder.scenario_filter.ScenarioFilter
+_convert_: "all"
+
+scenario_types: # List of scenario types to include
+  - starting_left_turn
+  - starting_right_turn
+  - starting_straight_traffic_light_intersection_traversal
+  - high_lateral_acceleration
+  - high_magnitude_speed
+  - near_multiple_vehicles
+  - changing_lane
+  - traversing_pickup_dropoff
+
+scenario_tokens: # List of scenario tokens to include
+  - c8a6f99ae43750a9
+  - "524c76c5d0d3578a"
+  - "3dc3d20b2f78573c"
+  - ed70a7ca5350593a
+  - "8a5fb3de4e785f87"
+  - dce0f77630e05c67
+  - "067488f23ef3554a"
+  - "011a76cbdda851bb"
+  - "8fc3f9bd06a25423"
+  - a22d7a6a37a85b74
+  - "37a0dd129f335fb5"
+  - "771297a09a50590e"
+  - "150f990d11255003"
+  - "357617c630cc5f6c"
+  - "0ef51935e41853ac"
+  - "6d34396ecc375932"
+  - "bf314c96e26159dd"
+  - "23c15f974b725070"
+  - "2f9fa2092bf05a7b"
+  - f51fa581f64b5b3e
+  - cb468419f191575a
+  - b7ec5cdee9765f23
+  - "8bce1db07e905f11"
+  - "7842f544a27154be"
+  - "0ad8665aace75ef7"
+  - "7b7128c02637583e"
+  - c7a667dbc8ff520f
+  - "7e8525c900f15ec4"
+  - "1aef09b936ca5f72"
+  - "765479ca832950f0"
+  - "0617d2b7c3c956e0"
+  - "83a18a11bf9b5baa"
+  - a51bd16d5f2b5a9b
+  - "1d827435afff5a34"
+  - f2b91abb2682592a
+  - f5a56a2c18045b2b
+  - "005c7b67ab8c5eb7"
+  - "05abec5c2a67537b"
+  - abdd9be326d85957
+  - "4e84e89c03a057f4"
+  - "370e453a4f6e55cf"
+  - "407052775bd75ef0"
+  - "0c87850fe06e516c"
+  - "42dc17b3a3e551bc"
+  - ae3f307de8615b35
+  - b94178aa0e9a5f6f
+  - bac0d1b3a1ff5389
+  - cf0f121bdeed51f1
+  - "1492e65004b65d05"
+  - f84836b6b3b75e15
+  - "16b29545f7355276"
+  - "5f126e11a529558a"
+  - c86e8e693033576e
+  - "322b2169ba325227"
+  - e2f3f2a226bf5570
+  - "96a626b4962a5b79"
+  - "60c1bc7de8ee5b8a"
+  - "71f20f6407c55709"
+  - cd6bb9145f305d6f
+  - "5c0d5992039c5ae5"
+  - "0c87850fe06e516c"
+  - eb23e8075d63518c
+  - c455ca6714a5529d ##
+  - "34abdafdc5bf5f02"
+  - "1898ebe818eb5b39"
+  - "5c368994f4f2586c"
+  - ff3e4f2876045591
+  - cb8c00bd27ef5407
+  - b7ec3b2902655a05
+  - a50c3f22fcf65ebb
+  - e0b356c707fa5cd8
+  - "1e77a04e93c75ba5"
+  - cb18c15a8d615d95
+  - ece5db3b69b25403
+  - "44a9f55424b0549d"
+  - b09528b71a5451cf
+  - bff510ccdeaa5f35
+  - "5598103d55ca5cc2"
+  - dec1c86d9a2e501e
+  - "90fba04924295a4f"
+  - "6734f71cf94850bb"
+  - "76c046586ec65d90"
+  - bdb0af2d9e105721
+  - "317d093b6b4f5485"
+  - "2a9eaeaef4d2579a" ##
+  - "7d24fb93bcf850e8"
+  - "318ccc0204ad5169"
+  - "2a1ee001593a5b12"
+  - "8081e335d96056e0"
+  - b3b0248521b35ad9
+  - "71b3a829aa955429"
+  - "005d90072df15dca"
+  - "06f3e1d3f9df598a"
+  - b1034855ca2b526f
+  - "077f90163e83515a"
+  - a64188586ebc5d4b
+  - e504f54a41665d9a
+  - bd9267c026a85b24
+  - "14f14589432c5e00"
+  - "41a9ae95891b5a3d"
+  - d0a4453b79835179
+  - "74f33e65028d5917"
+  - "0e80579390285813"
+  - "26cd2c1bfff85b53"
+  - "00c0d5bcf6d55c23"
+  - bbc7bb010c275ea4
+  - a750010a71535826
+  - "1093c17783b1551a" ##
+  - fcaf1d68979d560a
+  - "6e357a01f9b0593e"
+  - "35b63e40217856e4"
+  - d4c8c61f071c5f51
+  - "4629b70d7cca561b"
+  - "626f33408a435f47"
+  - e32452537a3d559c
+  - f80c33f8b5f2519e
+  - "1c7d81d771715ba6"
+  - "436936e49747508c"
+  - "8b5c8db732be5c8d"
+  - "c7dfc26b80d15e37"
+  - eb1ac330d8bc5a34
+  - "6b5577c4ad065b64"
+  - e15f7fb227925f87
+  - "631db6c25ffc54ad"
+  - "5b3fa11325e95c68"
+  - "7736cf1972215f9a"
+  - "29be0c5292695bb7"
+  - "45da1903cbb15d8e"  ##
+  - "59ea7796d6bb5870"
+  - "9387290766565a6d"
+  - "4ec6c6d1dd2a5704"
+  - "5d070fa13ed956b0"
+  - "b6dfb45102bf5e2f"
+  - "0f218605b46855a3"
+  - "92cebf9e9bee5055"
+  - "220dc5aa304859b0"
+  - d45ce3fc33ee5111
+  - "6ad66438155851ee"
+  - "390e7453b78a5e61"
+  - "3cede85b3ad15871"
+  - ef50b86138685a7f
+  - "7e4d2e8aba825cdd"
+  - bf6ed5c0c14c5095
+  - "5279e16c735e589e"
+  - "93455e89334950b2"
+  - ae2d9cd51ebb58aa
+  - "13eeb0a3d27454cd"
+  - "029fa42dc2b050b0" ##
+  - "1bc4a5a636f7539a"
+  - b567e21dec475d16
+  - "57b1c8e3ba6a5768"
+  - "f5f241207ac8528c"
+  - b4199a4f019e5984
+  - a3aca140c0bf5735
+  - "42c42020703a5556"
+  - bd4a927480be5f40
+  - c1e1aa49ca6d5f5b
+  - f7b8320599e7561d
+  - c11cf83340ef57cf
+  - "1c06e56cf14a5066"
+  - "6786d11321ff5a38"
+  - b01531a0a9da5ec3
+  - fee0a0e2c7f35b57
+  - b0ab4efe7be45584
+  - e52a507151b45124
+  - "4146a5366b6c5248"
+  - "15455c755f3d5f8e"
+  - cd63e5191fb854c4 ##
+
+
+
+log_names: null # Filter scenarios by log names
+map_names: null # Filter scenarios by map names
+
+num_scenarios_per_type: 20 # Number of scenarios per type
+limit_total_scenarios: null # Limit total scenarios (float = fraction, int = num) - this filter can be applied on top of num_scenarios_per_type
+timestamp_threshold_s: 15 # Filter scenarios to ensure scenarios have more than `timestamp_threshold_s` seconds between their initial lidar timestamps
+ego_displacement_minimum_m: null # Whether to remove scenarios where the ego moves less than a certain amount
+ego_start_speed_threshold: null # Limit to scenarios where the ego reaches a certain speed from below
+ego_stop_speed_threshold: null # Limit to scenarios where the ego reaches a certain speed from above
+speed_noise_tolerance: null # Value at or below which a speed change between two timepoints should be ignored as noise.
+
+expand_scenarios: false # Whether to expand multi-sample scenarios to multiple single-sample scenarios
+remove_invalid_goals: true # Whether to remove scenarios where the mission goal is invalid
+shuffle: false # Whether to shuffle the scenarios
